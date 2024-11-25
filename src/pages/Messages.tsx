@@ -30,11 +30,14 @@ const Messages: React.FC = () => {
     const fetchMessages = async () => {
       try {
         const token = localStorage.getItem("token"); // Retrieve the token
-        const response = await fetch("http://localhost:5000/api/messages", {
-          headers: {
-            Authorization: `Bearer ${token}`, // Include the token
-          },
-        });
+        const response = await fetch(
+          "https://dsavre-server.onrender.com/api/messages",
+          {
+            headers: {
+              Authorization: `Bearer ${token}`, // Include the token
+            },
+          }
+        );
 
         if (response.status === 401 || response.status === 403) {
           // If unauthorized, redirect to login

@@ -32,7 +32,7 @@ const MessageDetails: React.FC = () => {
       try {
         const token = localStorage.getItem("token"); // Retrieve the token
         const response = await fetch(
-          `http://localhost:5000/api/messages/${id}`,
+          `https://dsavre-server.onrender.com/api/messages/${id}`,
           {
             headers: {
               Authorization: `Bearer ${token}`, // Include the token
