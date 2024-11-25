@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import styled from "styled-components";
 import { motion } from "framer-motion";
 
@@ -52,6 +53,26 @@ const HeroText = styled.div`
 `;
 
 const HeroSection = () => {
+  useEffect(() => {
+    const checkHealth = async () => {
+      try {
+        const response = await fetch(
+          "https://dsavre-server.onrender.com/health"
+        );
+        if (response.ok) {
+          console.log("Health check successful!");
+        } else {
+          console.error("Health check failed:", response.statusText);
+        }
+      } catch (error) {
+        console.error("Error during health check:", error);
+      }
+    };
+
+    // Call the health check route when the HeroSection component is mounted
+    checkHealth();
+  }, []); // Empty dependency array ensures this runs only once, when the component mounts
+
   return (
     <Section>
       <Overlay />
