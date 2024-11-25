@@ -29,7 +29,7 @@ const AboutSection = () => {
   return (
     <Section>
       <motion.img
-        src="/public/assets/images/hero.jpg"
+        src="/assets/images/hero.jpg"
         alt="About"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}

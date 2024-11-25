@@ -37,16 +37,16 @@ const GalleryWrapper = styled.section`
 
 const GalleryPage = () => {
   const images = [
-    "/public/assets/images/gal1.jpg",
-    "/public/assets/images/gal2.jpg",
-    "/public/assets/images/gal3.jpg",
-    "/public/assets/images/gal4.jpg",
-    "/public/assets/images/gal5.jpg",
-    "/public/assets/images/gal6.jpg",
-    "/public/assets/images/gal7.jpg",
-    "/public/assets/images/gal8.jpg",
-    "/public/assets/images/gal9.jpg",
-    "/public/assets/images/gal10.jpg",
+    "/assets/images/gal1.jpg",
+    "/assets/images/gal2.jpg",
+    "/assets/images/gal3.jpg",
+    "/assets/images/gal4.jpg",
+    "/assets/images/gal5.jpg",
+    "/assets/images/gal6.jpg",
+    "/assets/images/gal7.jpg",
+    "/assets/images/gal8.jpg",
+    "/assets/images/gal9.jpg",
+    "/assets/images/gal10.jpg",
   ];
 
   return (
