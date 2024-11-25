@@ -7,7 +7,7 @@ const Section = styled.section`
   align-items: center;
   justify-content: center;
   text-align: center;
-  background: url("/src/assets/images/dsavre2.jpeg") no-repeat top center;
+  background: url("/public/assets/images/dsavre2.jpeg") no-repeat top center;
   background-size: cover;
   color: #fff;
   position: relative; /* For absolute positioning of overlay */

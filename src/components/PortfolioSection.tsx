@@ -81,13 +81,13 @@ const PortfolioSection = () => {
         transition={{ duration: 1, delay: 0.5 }}
       >
         <div className="grid-item">
-          <img src="/src/assets/images/port1.jpeg" alt="Portfolio 1" />
+          <img src="/public/assets/images/port1.jpeg" alt="Portfolio 1" />
         </div>
         <div className="grid-item">
-          <img src="/src/assets/images/port2.jpeg" alt="Portfolio 2" />
+          <img src="/public/assets/images/port2.jpeg" alt="Portfolio 2" />
         </div>
         <div className="grid-item">
-          <img src="/src/assets/images/port3.jpg" alt="Portfolio 3" />
+          <img src="/public/assets/images/port3.jpg" alt="Portfolio 3" />
         </div>
       </motion.div>
       <Link to="/gallery" className="see-more-btn">
