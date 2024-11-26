@@ -1,4 +1,4 @@
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import GlobalStyle from "./assets/styles/global";
 import AboutSection from "./components/AboutSection";
 import ContactSection from "./components/ContactSection";
