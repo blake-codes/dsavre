@@ -70,7 +70,7 @@ const HeroSection = () => {
     };
 
     // Call the health check route when the HeroSection component is mounted
-    checkHealth();
+    // checkHealth();
   }, []); // Empty dependency array ensures this runs only once, when the component mounts
 
   return (
